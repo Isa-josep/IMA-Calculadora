@@ -1,0 +1,12 @@
+TouchableWithoutFeedback se utiliza para hacer texto tocable, imagenes 
+
+<TouchableWithoutFeedback onPress={()=>Alert.alert("hola")}>
+      <Text>hola mundo</Text>
+</TouchableWithoutFeedback>
+
+
+import Constants from 'expo-constants'   se utiliza para bajar de la vbarra
+
+<View style={{marginTop:Constants.statusBarHeight,flexGrow:1}}>
+      <Text>arriba</Text>
+</View>
